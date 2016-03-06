@@ -19,3 +19,9 @@ Pangolin (get the latest version from [Pangolin](https://github.com/stevenlovegr
 CVD (provided as a .tgz in the ThirdParty folder)
 
 TooN (provided as a .tgz in the ThirdParty folder)
+
+[ImageUtilities](https://github.com/ankurhanda/imageutilities)
+
+OpenCV/OpenCV2
+
+libnoise (from synaptic)
