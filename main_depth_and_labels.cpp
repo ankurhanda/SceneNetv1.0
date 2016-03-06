@@ -169,7 +169,7 @@ int main(int argc, char *argv[])
     if ( argc < 2)
     {
         std::cerr<<"Usage: ./binary_name obj_file_path " << std::endl;
-        std::cerr<<"example: ./render_rgb_depth ../data/room_89_simple.obj" << std::endl;
+        std::cerr<<"example: ./opengl_depth_rendering ../data/room_89_simple.obj" << std::endl;
         exit(1);
     }
 
