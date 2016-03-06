@@ -87,10 +87,6 @@ SET(TINYOBJLOADER_SOURCES
             )
 
 
-SET(KINECTNOISE_SOURCES
-    ./noise/add_kinect_noise.h
-    ./noise/add_kinect_noise.cu)
-
 SET(VaFRIC_SOURCES
     ./VaFRIC/VaFRIC.h
     ./VaFRIC/VaFRIC.cpp)
@@ -100,7 +96,9 @@ SET(NOISE_SOURCES
     ./utils/noise/gaussian.h
     ./utils/noise/noiseutils.h
     ./utils/noise/noiseutils.cpp
-    ./utils/noise/perlin.h)
+    ./utils/noise/perlin.h
+    ./utils/noise/add_kinect_noise.h
+    ./utils/noise/add_kinect_noise.cu)
 
 SET(MATH_SOURCES
     ./math/aux_math.h
@@ -111,7 +109,6 @@ SET(MATH_SOURCES
 
 CUDA_ADD_EXECUTABLE(add_kinect_noise
                     ${NOISE_SOURCES}
-                    ${KINECTNOISE_SOURCES}
                     ${MATH_SOURCES}
                     main_add_kinect_noise.cpp)
 
