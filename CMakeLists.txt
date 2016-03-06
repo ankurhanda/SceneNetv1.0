@@ -18,6 +18,7 @@ find_package(OpenMP)
 find_package(Boost COMPONENTS thread REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(OpenCV2 REQUIRED)
+find_package(SceneGraph REQUIRED)
 
 if (OPENMP_FOUND)
     set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${OpenMP_C_FLAGS}")
@@ -52,6 +53,7 @@ INCLUDE_DIRECTORIES(
             ${OpenCV2_INCLUDE_PATH}
             ${OPENCV_INCLUDE_DIRS}
             ${CUDA_INCLUDE_DIRS}
+            ${SceneGraph_INCLUDE_DIRS}
 	    /usr/lib/x86_64-linux-gnu/glibmm-2.4/include/
             /usr/include/glib-2.0/
 	    /usr/lib/x86_64-linux-gnu/glib-2.0/include/
@@ -64,6 +66,7 @@ LINK_LIBRARIES(
             ${CVD_LIBRARY}
             ${OpenCV_LIBS}
 	    ${MinimalImgUtilities_LIBRARY}
+            ${SceneGraph_LIBRARIES}
             -lGLEW
             -lglut
             -lGLU
@@ -74,6 +77,7 @@ LINK_LIBRARIES(
 
 LINK_DIRECTORIES(
   ${OPENCV_LIBRARY_DIRS}
+  ${SceneGraph_LIBRARY_DIRS}
   /usr/local/lib
   /usr/local/lib64
 )
@@ -117,3 +121,10 @@ ADD_EXECUTABLE(opengl_depth_rendering
                ${SHADERS_SOURCES}
                ${TINYOBJLOADER_SOURCES}
                main_depth_and_labels.cpp)
+
+ADD_EXECUTABLE(opengl_rgbd_rendering
+               main_rgbd_and_labels.cpp)
+
+ADD_EXECUTABLE(automate_add_texture
+               main_automate_add_texture.cpp)
+
