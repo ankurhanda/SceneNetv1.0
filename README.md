@@ -8,7 +8,7 @@ This code enables depth and annotation rendering given a 3D model and trajectory
 
 #Dependencies
 
-Pangolin (get the latest version from [Pangolin](https://github.com/stevenlovegrove/Pangolin) 
+Pangolin (get the latest version from [Pangolin](https://github.com/stevenlovegrove/Pangolin)) 
 
 CVD (provided as a .tgz in the ThirdParty folder)
 
