@@ -354,15 +354,8 @@ int main(void)
 
     while(!pangolin::ShouldQuit())
     {
-
-//        std::cout <<"Total number of files: "<< dataset.getNumberofImageFiles() << std::endl;
-
         static Var<int> ref_image_no("ui.ref_img_no",0,0,1000);
         static Var<float>scale_disp("ui.scale_disp",1,1,100);
-
-//        static Var<float> z1("ui.z1",0,0,1);
-//        static Var<float> z2("ui.z2",0.0,0,0.01);
-//        static Var<float> z3("ui.z3",0.4,0,1);
 
         static Var<int>disp_threshold("ui.disp_thresh",10,0,20);
 
@@ -383,7 +376,7 @@ int main(void)
 
         char imgFileName[300];
 
-        sprintf(imgFileName,"/home/ankur/workspace/code/OffScreenDepthRender/data/bedroom1_data/scenedepth_00_%07d.png",
+        sprintf(imgFileName,"../data/room_89_simple_data/scenedepth_00_%07d.png",
                 (int)ref_image_no);
 
         std::cout<<imgFileName << std::endl;
@@ -654,7 +647,8 @@ int main(void)
 //                char imgFileName[300];
 //                char txtFileName[300];
 
-                sprintf(depthFileName,"traj3_noise/scene_00_%04d_noisy_depth.png",(int)ref_image_no);
+                sprintf(depthFileName,"scene_00_%04d_noisy_depth.png",(int)ref_image_no);
+
 //                sprintf(imgFileName,"traj3_noise/scene_00_%04d.png",(int)ref_image_no);
 //                sprintf(txtFileName,"traj3_noise/scene_00_%04d.txt",(int)ref_image_no);
 
