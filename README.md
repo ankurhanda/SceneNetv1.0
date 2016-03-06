@@ -14,7 +14,7 @@ This code enables depth and annotation rendering given a 3D model and trajectory
 
 #Dependencies
 
-Pangolin (get the latest version from [Pangolin](https://github.com/stevenlovegrove/Pangolin)) 
+[Pangolin] (https://github.com/ankurhanda/Pangolin-local) Local copy of https://github.com/stevenlovegrove/Pangolin 
 
 [CVD](https://github.com/ankurhanda/libcvd) (It will not be a dependency any more in future!)
 
