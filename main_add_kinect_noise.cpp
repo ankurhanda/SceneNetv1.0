@@ -16,12 +16,8 @@
 #include <boost/thread.hpp>
 #include <pangolin/simple_math.h>
 
-//#include <gvars3/default.h>
-//#include <gvars3/gvars3.h>
 
-#include "VaFRIC/VaFRIC.h"
-
-//#include <icarus/icarus.h>
+//#include "VaFRIC/VaFRIC.h"
 
 #include <iu/iuio.h>
 #include <iu/iumath.h>
@@ -43,7 +39,6 @@ using namespace pangolin;
 using namespace std;
 using namespace CVD;
 using namespace TooN;
-//using namespace GVars3;
 
 void GPUMemory()
 {
@@ -75,9 +70,11 @@ void GPUMemory()
 
 
 
+
 const float invalid_disp_ = 99999999.9;
 
-////// filter disparity with a 9x9 correlation window
+/// from: https://github.com/jbohg/render_kinect
+/// filter disparity with a 9x9 correlation window
 void filterDisp(const cv::Mat& disp, cv::Mat& out_disp, cv::Mat& dot_pattern_)
 {
     const int size_filt_ = 9;
@@ -630,11 +627,6 @@ int main(void)
                 max_val = -1E10;
                 min_val =  1E10;
 
-//                iu::minMax(noisy_depth_png,noisy_depth_png->roi(),min_val,max_val);
-
-//                std::cout<<"16bit min, max = " << max_val <<", "<< min_val << std::endl;
-
-
                 cudaMemcpy2D(depthImage.data(),
                              width*sizeof(u_int16_t),
                              noisy_depth_png->data(),
@@ -644,23 +636,10 @@ int main(void)
                              cudaMemcpyDeviceToHost);
 
                 char depthFileName[300];
-//                char imgFileName[300];
-//                char txtFileName[300];
 
                 sprintf(depthFileName,"scene_00_%04d_noisy_depth.png",(int)ref_image_no);
 
-//                sprintf(imgFileName,"traj3_noise/scene_00_%04d.png",(int)ref_image_no);
-//                sprintf(txtFileName,"traj3_noise/scene_00_%04d.txt",(int)ref_image_no);
-
                 img_save(depthImage,depthFileName);
-//                img_save(dataset.getPNGImage< CVD::Rgb<u_int16_t> >(ref_image_no,0),imgFileName);
-
-//                ofstream ofile;
-//                ofile.open(txtFileName);
-//                ofile << dataset.computeTpov_cam(ref_image_no,0)<<endl;
-//                ofile.close();
-
-//                ref_image_no = ref_image_no+1;
             }
 
             else
