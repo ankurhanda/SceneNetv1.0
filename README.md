@@ -16,9 +16,9 @@ This code enables depth and annotation rendering given a 3D model and trajectory
 
 Pangolin (get the latest version from [Pangolin](https://github.com/stevenlovegrove/Pangolin)) 
 
-CVD (provided as a .tgz in the ThirdParty folder but will not be a dependency any more in future!)
+[CVD](https://github.com/ankurhanda/libcvd) (It will not be a dependency any more in future!)
 
-TooN (provided as a .tgz in the ThirdParty folder but will be replaced by Eigen3 in future!)
+[TooN](https://github.com/ankurhanda/TooN) (It will be replaced by Eigen3 in future!)
 
 [ImageUtilities](https://github.com/ankurhanda/imageutilities)
 
