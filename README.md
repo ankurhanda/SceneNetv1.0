@@ -9,7 +9,7 @@ This code enables depth and annotation rendering given a 3D model and trajectory
 - [ ] Simulated Annealing
 - [ ] RGB Rendering
 - [ ] Releasing Trajectories
-- [ ] Converting Depth to HHA format
+- [ ] Converting Depth to DHA format
 - [ ] Emphasise on Negative Focal Length
 
 #Dependencies
