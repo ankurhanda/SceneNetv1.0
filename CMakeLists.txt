@@ -6,16 +6,18 @@ SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/CMakeModules/"
 
 SET(CMAKE_CXX_FLAGS "-std=c++11")
 
-#FIND_PACKAGE(CUDA REQUIRED)
+FIND_PACKAGE(CUDA REQUIRED)
 find_package(PkgConfig REQUIRED)
 find_package(Eigen3 REQUIRED)
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
 find_package(Pangolin REQUIRED)
 find_package(CVD REQUIRED)
-#find_package(MinimalImgUtilities REQUIRED)
+find_package(MinimalImgUtilities REQUIRED)
 find_package(OpenMP)
 find_package(Boost COMPONENTS thread REQUIRED)
+find_package(OpenCV REQUIRED)
+find_package(OpenCV2 REQUIRED)
 
 if (OPENMP_FOUND)
     set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${OpenMP_C_FLAGS}")
@@ -24,7 +26,7 @@ endif()
 
 
 # Adapt it accordingly
-#SET(CUDA_NVCC_FLAGS  "-arch=sm_30"  "--use_fast_math" "-O3" "-lineinfo")
+SET(CUDA_NVCC_FLAGS  "-arch=sm_30"  "--use_fast_math" "-O3" "-lineinfo")
 
 #FIND_PATH(CUDA_CUT_INCLUDE_DIR
 #   cutil.h
@@ -47,7 +49,8 @@ INCLUDE_DIRECTORIES(
             ${CVD_INCLUDE_DIR}
             ${OPENGL_INCLUDE_DIR}
 	    ${MinimalImgUtilities_INCLUDE_DIR}
-            ${CUDA_CUT_INCLUDE_DIR}
+            ${OpenCV2_INCLUDE_PATH}
+            ${OPENCV_INCLUDE_DIRS}
             ${CUDA_INCLUDE_DIRS}
 	    /usr/lib/x86_64-linux-gnu/glibmm-2.4/include/
             /usr/include/glib-2.0/
@@ -59,12 +62,14 @@ LINK_LIBRARIES(
             ${Pangolin_LIBRARY}
             ${Eigen3_LIBRARY}
             ${CVD_LIBRARY}
+            ${OpenCV_LIBS}
 	    ${MinimalImgUtilities_LIBRARY}
             -lGLEW
             -lglut
             -lGLU
             -lGL
             -lboost_system
+            -lnoise
             )
 
 LINK_DIRECTORIES(
@@ -89,6 +94,26 @@ SET(KINECTNOISE_SOURCES
 SET(VaFRIC_SOURCES
     ./VaFRIC/VaFRIC.h
     ./VaFRIC/VaFRIC.cpp)
+
+SET(NOISE_SOURCES
+    ./utils/noise/noise.h
+    ./utils/noise/gaussian.h
+    ./utils/noise/noiseutils.h
+    ./utils/noise/noiseutils.cpp
+    ./utils/noise/perlin.h)
+
+SET(MATH_SOURCES
+    ./math/aux_math.h
+    ./math/aux_math.cu
+    ./math/cumath.h
+    ./math/cumath.cu
+    ./math/MatUtils.h)
+
+CUDA_ADD_EXECUTABLE(add_kinect_noise
+                    ${NOISE_SOURCES}
+                    ${KINECTNOISE_SOURCES}
+                    ${MATH_SOURCES}
+                    main_add_kinect_noise.cpp)
 
 ADD_EXECUTABLE(opengl_depth_rendering
                ${VaFRIC_SOURCES}
