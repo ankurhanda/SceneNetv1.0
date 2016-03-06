@@ -4,4 +4,12 @@ All the necessary source code for SceneNet  [SceneNet: Understanding Real World 
 
 #Updates
 
-This code enables depth and annotation rendering given a 3D model and trajectory. We provide a sample 3D model in the data folder and a trajectory in data/room_89_simple_data folder. More details will be updated soon. 
+This code enables depth and annotation rendering given a 3D model and trajectory. We provide a sample 3D model in the data folder and a trajectory in data/room_89_simple_data folder. More details will be updated soon.
+
+#Dependencies
+
+Pangolin (get the latest version from [Pangolin](https://github.com/stevenlovegrove/Pangolin) )
+
+CVD (provided as a .tgz in the ThirdParty folder)
+
+TooN (provided as a .tgz in the ThirdParty folder)
