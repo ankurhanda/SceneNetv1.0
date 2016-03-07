@@ -25,3 +25,18 @@ This code enables depth and annotation rendering given a 3D model and trajectory
 OpenCV/OpenCV2
 
 libnoise (from synaptic)
+
+#Build
+
+```
+mkdir build
+cd build
+make -j8
+```
+
+#Demo
+in your build, run
+
+```
+./opengl_depth_rendering ../data/room_89_simple.obj
+```
