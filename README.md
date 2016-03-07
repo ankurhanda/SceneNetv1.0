@@ -7,7 +7,7 @@ All the necessary source code for SceneNet  [SceneNet: Understanding Real World 
 This code enables depth and annotation rendering given a 3D model and trajectory. We provide a sample 3D model in the **data** folder and a trajectory in **data/room_89_simple_data** folder. More details will be updated soon. Things to do 
 
 - [ ] Simulated Annealing
-- [ ] RGB Rendering
+- [ ] [RGB Rendering](https://github.com/ankurhanda/SceneGraphRendering) to be merged with the code
 - [ ] Releasing Trajectories
 - [ ] Converting Depth to DHA format
 - [ ] Emphasise on Negative Focal Length
