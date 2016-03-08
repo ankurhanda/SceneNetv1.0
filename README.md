@@ -41,5 +41,6 @@ in your build, run
 ```
 ./opengl_depth_rendering ../data/room_89_simple.obj
 ```
+You should have annotated images in the folder **data/room_89_simple_data** that should look like these images
 ![Montage-0](Resources/test-0.png)
 ![Montage-1](Resources/test-1.png)
