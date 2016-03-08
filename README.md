@@ -41,3 +41,4 @@ in your build, run
 ```
 ./opengl_depth_rendering ../data/room_89_simple.obj
 ```
+![Montage](Resources/test-1.png)
