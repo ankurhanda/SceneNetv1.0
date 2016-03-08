@@ -41,4 +41,5 @@ in your build, run
 ```
 ./opengl_depth_rendering ../data/room_89_simple.obj
 ```
-![Montage](Resources/test-1.png)
+![Montage-0](Resources/test-0.png)
+![Montage-1](Resources/test-1.png)
