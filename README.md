@@ -46,3 +46,11 @@ in your build, run
 You should have annotated images in the folder **data/room_89_simple_data** that should look like these
 
 ![Montage-0](Resources/out.png)
+
+#SceneNet Basis Models 
+
+- [ ] [Bedrooms](https://bitbucket.org/robotvault/bedroomscenenet/)
+- [ ] [Livingrooms](https://bitbucket.org/robotvault/livingroomsscenenet/)
+- [ ] [Offices](https://bitbucket.org/robotvault/officesscenenet)
+- [ ] [Kitchens](https://bitbucket.org/robotvault/bedroomscenenet/)
+- [ ] [Bathrooms](https://bitbucket.org/robotvault/bedroomscenenet/)
