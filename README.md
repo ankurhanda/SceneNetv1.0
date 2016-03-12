@@ -52,5 +52,5 @@ You should have annotated images in the folder **data/room_89_simple_data** that
 - [ ] [Bedrooms](https://bitbucket.org/robotvault/bedroomscenenet/)
 - [ ] [Livingrooms](https://bitbucket.org/robotvault/livingroomsscenenet/)
 - [ ] [Offices](https://bitbucket.org/robotvault/officesscenenet)
-- [ ] [Kitchens](https://bitbucket.org/robotvault/bedroomscenenet/)
-- [ ] [Bathrooms](https://bitbucket.org/robotvault/bedroomscenenet/)
+- [ ] [Kitchens](https://bitbucket.org/robotvault/kitchensscenenet/)
+- [ ] [Bathrooms](https://bitbucket.org/robotvault/bathroomscenenet/)
