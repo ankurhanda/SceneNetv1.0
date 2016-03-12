@@ -14,19 +14,13 @@ This code enables depth and annotation rendering given a 3D model and trajectory
 
 #Dependencies
 
-[Pangolin] (https://github.com/ankurhanda/Pangolin-local) Local copy of https://github.com/stevenlovegrove/Pangolin 
-
-[CVD](https://github.com/ankurhanda/libcvd) (It will not be a dependency any more in future!)
-
-[TooN](https://github.com/ankurhanda/TooN) (It will be replaced by Eigen3 in future!)
-
-[ImageUtilities](https://github.com/ankurhanda/imageutilities)
-
-[SceneGraphRendering](https://github.com/ankurhanda/SceneGraphRendering) (will be merged within soon!)
-
-OpenCV/OpenCV2
-
-libnoise (from synaptic)
+* [Pangolin] (https://github.com/ankurhanda/Pangolin-local) Local copy of https://github.com/stevenlovegrove/Pangolin 
+* [CVD](https://github.com/ankurhanda/libcvd) (It will not be a dependency any more in future!)
+* [TooN](https://github.com/ankurhanda/TooN) (It will be replaced by Eigen3 in future!)
+* [ImageUtilities](https://github.com/ankurhanda/imageutilities)
+* [SceneGraphRendering](https://github.com/ankurhanda/SceneGraphRendering) (will be merged within soon!)
+* OpenCV/OpenCV2
+* libnoise (from synaptic)
 
 #Build
 
