@@ -22,6 +22,8 @@ This code enables depth and annotation rendering given a 3D model and trajectory
 
 [ImageUtilities](https://github.com/ankurhanda/imageutilities)
 
+[SceneGraphRendering](https://github.com/ankurhanda/SceneGraphRendering) (will be merged within soon!)
+
 OpenCV/OpenCV2
 
 libnoise (from synaptic)
