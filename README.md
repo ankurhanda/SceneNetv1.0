@@ -41,6 +41,11 @@ You should have annotated images in the folder **data/room_89_simple_data** that
 
 ![Montage-0](Resources/out.png)
 
+#Adding noise to the depth maps 
+
+[Video](https://youtu.be/3nmQ3SiZKuk?t=42s)
+
+
 #SceneNet Basis Models (Work In Progress) 
 
 - [ ] [Bedrooms](https://bitbucket.org/robotvault/bedroomscenenet/)
