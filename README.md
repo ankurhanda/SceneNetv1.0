@@ -49,7 +49,7 @@ You should have annotated images in the folder **data/room_89_simple_data** that
 #SceneNet Basis Models (Work In Progress) 
 
 - [ ] [Bedrooms](https://bitbucket.org/robotvault/bedroomscenenet/)
-..[_] [Bedroom Layouts](https://bitbucket.org/robotvault/bedroomlayoutscenenet)
+..* [Bedroom Layouts](https://bitbucket.org/robotvault/bedroomlayoutscenenet)
 - [ ] [Livingrooms](https://bitbucket.org/robotvault/livingroomsscenenet/)
 - [ ] [Offices](https://bitbucket.org/robotvault/officesscenenet)
 - [ ] [Kitchens](https://bitbucket.org/robotvault/kitchensscenenet/)
