@@ -32,15 +32,17 @@ int main(void)
 {
     srand(time(NULL));
 
-    for(int i = 1 ; i < 12; i++ )
+    //for(int i = 1 ; i < 12; i++ )
+    int i =1;
     {
         char fileName[100];
 
-        sprintf(fileName,"/home/ankur/livingroom/previous_mtls/livingroom%d.mtl",i);
+//        sprintf(fileName,"/home/ankur/livingroom/previous_mtls/livingroom%d.mtl",i);
+        sprintf(fileName,"/home/dysondemo/workspace/SceneNetBasisModels/bedroom/room_layout/bedroom%d_layout.mtl",i);
 
         ifstream ifile(fileName);
 
-        sprintf(fileName,"livingroom%d.mtl",i);
+        sprintf(fileName,"bedroom%d_layout.mtl",i);
 
         ofstream ofile(fileName);
 
@@ -82,7 +84,7 @@ int main(void)
 
                     std::cout<<matname<<std::endl;
 
-                    base_dir = "/home/ankur/texture_library/" + matname;
+                    base_dir = "/home/dysondemo/workspace/code/texture_library/" + matname;
 
                     getFilesInDirectory(base_dir,filesinDir);
 
@@ -95,12 +97,12 @@ int main(void)
                     if ( filesinDir.size())
                     {
                         int random_texture = ((float)rand()/RAND_MAX)*(filesinDir.size()-1);
-                       std::cout<<filesinDir.at(random_texture) << std::endl;
+                        std::cout<<filesinDir.at(random_texture) << std::endl;
                         ofile << "map_Kd "<< filesinDir.at(random_texture) << std::endl;
                     }
                     else
                     {
-                        ofile << "map_Kd ../texture_library/duvet/5634339c2263c3d69c2b4838bd5d80cc.jpg" << std::endl;
+                        ofile << "map_Kd /home/dysondemo/workspace/code/texture_library/duvet/5634339c2263c3d69c2b4838bd5d80cc.jpg" << std::endl;
                     }
 
                 }

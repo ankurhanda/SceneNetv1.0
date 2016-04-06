@@ -72,6 +72,7 @@ LINK_LIBRARIES(
             -lGLU
             -lGL
             -lboost_system
+            -lboost_filesystem
             -lnoise
             )
 
@@ -128,3 +129,7 @@ ADD_EXECUTABLE(opengl_rgbd_rendering
 ADD_EXECUTABLE(automate_add_texture
                main_automate_add_texture.cpp)
 
+ADD_EXECUTABLE(tum_iomanip
+               main_tum_iomanip.cpp)
+ADD_EXECUTABLE(ReadSceneNetTrajectories
+               main_read_sceneNet_trajectories.cpp)
