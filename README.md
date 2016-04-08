@@ -59,6 +59,11 @@ You should have annotated images in the folder **data/room_89_simple_data** that
 - [ ] [Bathrooms](https://bitbucket.org/robotvault/bathroomscenenet/)
 - [Bathroom Layouts](https://bitbucket.org/robotvault/bathroomslayoutscenenet)
 
+#Sample Texture Library
+
+Download the sample texture library to texture the models from [here](http://tinyurl.com/zpc9ppb).
+
+
 #Website 
 
 More information is available here at our website [robotvault.bitbucket.org](http://robotvault.bitbucket.org)
