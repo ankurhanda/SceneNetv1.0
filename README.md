@@ -138,6 +138,9 @@ Label name and number are from SUN RGB-D/ NYUv2. Their corresponding SceneNet/Ei
 | 39 | Other-furniture   | 6   |
 | 40 | Other-prop      | 7 | 
 
+#Accuracy Script
+
+Compute the global/per-class accuracy with [getAccuracyNYU.m](https://github.com/ankurhanda/SceneNetv1.0/blob/master/getAccuracyNYU.m) script provided in the repository.
 
 #Latex Code 
 
