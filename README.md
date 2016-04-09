@@ -91,6 +91,8 @@ Label name and number mapping is from Eigen et al. arXiv 2015, ICCV 2015
 
 #Conversion from SUN RGB-D/NYUv2 37/40 Labels 
 
+Get the 40 class mapping for NYUv2 from [http://www.cs.berkeley.edu/~sgupta/cvpr13/](http://www.cs.berkeley.edu/~sgupta/cvpr13/). SUN RGB-D already provide the 37 class mapping in their meta-data files.
+
 Label name and number are from SUN RGB-D/ NYUv2. Their corresponding SceneNet/Eigen et al. mapping is in the last column.
 
 | SUN RGB-D/NYUv2Label Number  | Label Name    | Eigen et al./SceneNet Mapping | 
