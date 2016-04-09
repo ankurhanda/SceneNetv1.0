@@ -70,6 +70,9 @@ More information is available here at our website [robotvault.bitbucket.org](htt
 
 #Labels
 
+Label name and number mapping is from Eigen et al. arXiv 2015, ICCV 2015
+
+
 | Label Number  | Label Name    |
 |:-------------:|:-------------:|
 | 1  | Bed         | 
@@ -85,6 +88,53 @@ More information is available here at our website [robotvault.bitbucket.org](htt
 | 11 | TV          |  
 | 12 | Wall        |  
 | 13 | Window      |  
+
+#Conversion from SUN RGB-D/NYUv2 37/40 Labels 
+
+Label name and number are from SUN RGB-D/ NYUv2. Their corresponding SceneNet/Eigen et al. mapping is in the last column.
+
+| SUN RGB-D/NYUv2Label Number  | Label Name    | Eigen et al./SceneNet Mapping | 
+|:-------------:|:-------------:|:-------------:|
+| 1  | Wall         | 12 | 
+| 2  | Floor       | 5 |
+| 3  | Cabinet     | 6 | 
+| 4  | Bed       | 1 | 
+| 5  | Chair   | 4 | 
+| 6  | Sofa     | 9 | 
+| 7  | Table     | 10 | 
+| 8  | Door        | 12 | 
+| 9 | Window       | 13 | 
+| 10 | BookShelf         | 6 | 
+| 11 | Picture        | 8 | 
+| 12 | Counter      | 6 | 
+| 13 | Blinds      | 13 | 
+| 14 | Desks      | 10 
+| 15 | Shelves      | 6 | 
+| 16 | Curtain      | 13 | 
+| 17 | Dresser      | 6 | 
+| 18 | Pillow     | 7 | 
+| 19 | Mirror      | 7 | 
+| 20 | Floor-mat      | 5 | 
+| 21 | Clothes      | 7 | 
+| 22  | Ceiling         | 3 | 
+| 23  | Books       | 2 | 
+| 24  | Refrigerator     | 6 | 
+| 25  | Television       | 11  | 
+| 26  | Paper       | 7 | 
+| 27  | Towel   | 7 | 
+| 28  | Shower-curtain | 7   |
+| 29  | Box     | 7 | 
+| 30  | Whiteboard    | 7    |
+| 31 | Person       | 7 |
+| 32 | NightStand       | 6 |
+| 33 | Toilet        | 7 | 
+| 34 | Sink      | 7 | 
+| 35 | Lamp      | 7 | 
+| 36 | Bathtub      | 7 | 
+| 37 | Bag      | 7 | 
+| 38 | Other-structure | 7  |
+| 39 | Other-furniture   | 6   |
+| 40 | Other-prop      | 7 | 
 
 
 #Latex Code 
