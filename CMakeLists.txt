@@ -123,6 +123,13 @@ ADD_EXECUTABLE(opengl_depth_rendering
                ${TINYOBJLOADER_SOURCES}
                main_depth_and_labels.cpp)
 
+ADD_EXECUTABLE(living_room_rendering
+               ${VaFRIC_SOURCES}
+               ${SHADERS_SOURCES}
+               ${TINYOBJLOADER_SOURCES}
+               main_living_room_dynamic.cpp)
+
+
 ADD_EXECUTABLE(opengl_rgbd_rendering
                main_rgbd_and_labels.cpp)
 
@@ -131,5 +138,6 @@ ADD_EXECUTABLE(automate_add_texture
 
 ADD_EXECUTABLE(tum_iomanip
                main_tum_iomanip.cpp)
+
 ADD_EXECUTABLE(ReadSceneNetTrajectories
                main_read_sceneNet_trajectories.cpp)

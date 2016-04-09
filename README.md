@@ -68,6 +68,25 @@ Download the sample texture library to texture the models from [here](http://tin
 
 More information is available here at our website [robotvault.bitbucket.org](http://robotvault.bitbucket.org)
 
+#Labels
+
+| Label Number  | Label Name    |
+| ------------- |:-------------:|
+| 1  | Bed         | 
+| 2  | Books       |  
+| 3  | Ceiling     |  
+| 4  | Chair       |  
+| 5  | Floor       |  
+| 6  | Furniture   |  
+| 7  | Objects     |  
+| 8  | Picture     |  
+| 9  | Sofa        |  
+| 10 | Table       |  
+| 11 | TV          |  
+| 12 | Wall        |  
+| 13 | Window      |  
+
+
 #Latex Code 
 
 ```
