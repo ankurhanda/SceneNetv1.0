@@ -71,7 +71,7 @@ More information is available here at our website [robotvault.bitbucket.org](htt
 #Labels
 
 | Label Number  | Label Name    |
-| ------------- |:-------------:|
+|:-------------:|:-------------:|
 | 1  | Bed         | 
 | 2  | Books       |  
 | 3  | Ceiling     |  
