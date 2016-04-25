@@ -61,7 +61,7 @@ You should have annotated images in the folder **data/room_89_simple_data** that
 
 #Sample Texture Library
 
-Download the sample texture library to texture the models from [here](http://tinyurl.com/zpc9ppb).
+Download the sample texture library to texture the models from [here](http://tinyurl.com/zpc9ppb). Textured bedrooms are shown below. 
 
 ![Montage-0](Resources/bedroom_textured.png)
 
