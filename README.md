@@ -184,3 +184,8 @@ Hermans \textit{et al.}(rgbd+crf)\cite{Hermans:etal:ICRA2014} & 68.4 & N/A & \te
 \label{table: CA breakdown for 13 classes}
 \end{table*}
 ```
+
+#License
+
+All the code and data are released under a creative commons license which is purely for research purposes only. Please view the summary here [http://creativecommons.org/licenses/by-nc/4.0/]([http://creativecommons.org/licenses/by-nc/4.0/)
+
