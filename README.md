@@ -190,7 +190,7 @@ Hermans \textit{et al.}(rgbd+crf)\cite{Hermans:etal:ICRA2014} & 68.4 & N/A & \te
 The whole process of data generation and experiments are in 
 
 SceneNet: an Annotated Model Generator for Indoor Scene Understanding, ICRA 2016
-
+<br>
 Ankur Handa, Viorica Patraucean, Simon Stent, Roberto Cipolla
 
 Understanding Real World Indoor Scenes With Synthetic Data, CVPR 2016
