@@ -194,15 +194,14 @@ SceneNet: an Annotated Model Generator for Indoor Scene Understanding, ICRA 2016
 Ankur Handa, Viorica Patraucean, Simon Stent, Roberto Cipolla
 
 Understanding Real World Indoor Scenes With Synthetic Data, CVPR 2016
-
+<br>
 Ankur Handa, Viorica Patraucean, Vijay Badrinarayanan, Simon Stent, Roberto Cipolla
-
 
 
 An up-to-date version is maintained on the arXiv 
 
 SceneNet: Understanding Real World Indoor Scenes with Synthetic Data [arXiv link](http://arxiv.org/pdf/1511.07041v2.pdf)
-
+<br>
 Ankur Handa, Viorica Patraucean, Vijay Badrinarayanan, Simon Stent, Roberto Cipolla
 
 #License
