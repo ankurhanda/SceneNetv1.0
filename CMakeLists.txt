@@ -135,7 +135,3 @@ ADD_EXECUTABLE(opengl_rgbd_rendering
 
 ADD_EXECUTABLE(automate_add_texture
                main_automate_add_texture.cpp)
-
-ADD_EXECUTABLE(tum_iomanip
-               main_tum_iomanip.cpp)
-
