@@ -139,5 +139,3 @@ ADD_EXECUTABLE(automate_add_texture
 ADD_EXECUTABLE(tum_iomanip
                main_tum_iomanip.cpp)
 
-ADD_EXECUTABLE(ReadSceneNetTrajectories
-               main_read_sceneNet_trajectories.cpp)
