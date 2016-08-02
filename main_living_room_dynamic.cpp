@@ -1225,6 +1225,5 @@ int main(int argc, char *argv[])
     }
 
     std::cout<<"Files have been written !" << std::endl;
-    povray_utils::generate_POVRay_commands(gtPoses);
 }
 
