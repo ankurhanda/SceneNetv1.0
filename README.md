@@ -189,7 +189,7 @@ Hermans \textit{et al.}(rgbd+crf)\cite{Hermans:etal:ICRA2014} & 68.4 & N/A & \te
 
 # Relevant Documents
 
-The whole process of data generation and experiments are in 
+The whole process of data generation and experiments are in the following papers. If you find our work valuable and helpful, please considering citing the relevant document. Thank you. 
 
 [SceneNet: an Annotated Model Generator for Indoor Scene Understanding](http://www.saistent.com/assets/pdfs/handa16icra.pdf), _ICRA 2016_
 <br>
