@@ -235,6 +235,7 @@ Ankur Handa, Viorica Patraucean, Vijay Badrinarayanan, Simon Stent, Roberto Cipo
 @inproceedings{Handa:etal:arXiv2016,
   author    = {Ankur Handa and 
                Viorica P{\u a}tr{\u a}ucean and
+               Vijay Badrinarayanan and 
                Simon Stent and
                Roberto Cipolla},
   title     = {SceneNet: Understanding Real World Indoor Scenes With Synthetic Data},
