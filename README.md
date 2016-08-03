@@ -195,10 +195,35 @@ The whole process of data generation and experiments are in
 <br>
 Ankur Handa, Viorica Patraucean, Simon Stent, Roberto Cipolla
 
+```
+@inproceedings{Handa:etal:ICRA2016,
+  author    = {Ankur Handa and 
+               Viorica P{\u a}tr{\u a}ucean and
+               Simon Stent and
+               Roberto Cipolla},
+  title     = {SceneNet: an Annotated Model Generator for Indoor Scene Understanding},
+  booktitle = {ICRA},
+  year      = {2016}
+}
+```
+
+
 [Understanding Real World Indoor Scenes With Synthetic Data](https://www.repository.cam.ac.uk/handle/1810/254859), _CVPR 2016_
 <br>
 Ankur Handa, Viorica Patraucean, Vijay Badrinarayanan, Simon Stent, Roberto Cipolla
 
+```
+@inproceedings{Handa:etal:CVPR2016,
+  author    = {Ankur Handa and 
+               Viorica P{\u a}tr{\u a}ucean and
+               Vijay Badrinarayanan and 
+               Simon Stent and
+               Roberto Cipolla},
+  title     = {Understanding Real World Indoor Scenes With Synthetic Data},
+  booktitle = {CVPR},
+  year      = {2016}
+}
+```
 
 An up-to-date version is maintained on the arXiv 
 
@@ -206,6 +231,17 @@ SceneNet: Understanding Real World Indoor Scenes with Synthetic Data [arXiv link
 <br>
 Ankur Handa, Viorica Patraucean, Vijay Badrinarayanan, Simon Stent, Roberto Cipolla
 
+```
+@inproceedings{Handa:etal:arXiv2016,
+  author    = {Ankur Handa and 
+               Viorica P{\u a}tr{\u a}ucean and
+               Simon Stent and
+               Roberto Cipolla},
+  title     = {SceneNet: Understanding Real World Indoor Scenes With Synthetic Data},
+  booktitle = {arXiv},
+  year      = {2015}
+}
+```
 #License
 
 All the code and data are released under a creative commons license which is purely for research purposes only. Please view the summary here [http://creativecommons.org/licenses/by-nc/4.0/]([http://creativecommons.org/licenses/by-nc/4.0/)
