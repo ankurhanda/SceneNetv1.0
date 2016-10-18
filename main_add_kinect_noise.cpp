@@ -471,7 +471,7 @@ int main(void)
                          tex_coords->height());
 
         iu::copy(noisy_depth_copy,h_noisy_depth);
-
+        iu::copy(h_noisy_depth,h_depth);
 
         float max_val = -1E10;
         float min_val =  1E10;
