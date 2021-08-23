@@ -191,7 +191,7 @@ Hermans \textit{et al.}(rgbd+crf)\cite{Hermans:etal:ICRA2014} & 68.4 & N/A & \te
 
 The whole process of data generation and experiments are in the following papers. If you find our work valuable and helpful, please consider citing the relevant document. Thank you. 
 
-[SceneNet: an Annotated Model Generator for Indoor Scene Understanding](http://www.saistent.com/assets/pdfs/handa16icra.pdf), _ICRA 2016_
+[SceneNet: an Annotated Model Generator for Indoor Scene Understanding](https://ieeexplore.ieee.org/document/7487797), _ICRA 2016_
 <br>
 Ankur Handa, Viorica Patraucean, Simon Stent, Roberto Cipolla
 
